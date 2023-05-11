@@ -1,0 +1,11 @@
+API REST
+
+-API: parte exposta do sistema, disponível para que outras pessoas a utilizem
+-API REST: 
+    -Tem tráfego feito via HTTP (via texto)
+        -Verbos HTTP => possui quatro verbos principais
+            -GET => sinaliza qundo se quer CONSULTAR DADOS 
+            -POST => sinaliza que a operação realizada é de ENVIAR/SALVAR DADOS
+            -PUT => sinaliza quando se quer ATUALIZAR DADOS
+            -DELETE => sinaliza que se quer REMOVER DADOS
+    -As informações trafegam em formato de texto puro via JSON (formato chave - valor)

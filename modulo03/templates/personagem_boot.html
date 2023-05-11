@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+    <title>Personagem</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="{{imagem}}" alt="{{nome}}" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <h1>{{nome}}</h1>
+                <p>É {{raça}} e estuda na casa {{casa}}</p>
+                <p>{{nome}} nasceu em {{nascimento}} e tem {{altura}}m de altura</p>
+            </div>
+        </div>
+    </div>
+    <script src="{{url_for('static', filename='js/bootstrap.bundle.min.js')}}"></script>
+</body>
+</html>
